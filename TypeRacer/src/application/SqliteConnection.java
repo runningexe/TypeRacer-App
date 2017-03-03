@@ -11,7 +11,7 @@ public class SqliteConnection {
         try{
             Class.forName("org.sqlite.JDBC");
 
-            Connection conn = DriverManager.getConnection("jdbc:sqlite:C:\\Users\\RunningEXE\\Desktop\\SQLite Databases\\typeracerDB.sqlite");
+            Connection conn = DriverManager.getConnection("jdbc:sqlite:typeracerDB.sqlite");
             return conn;
 
         } catch (Exception e) {
