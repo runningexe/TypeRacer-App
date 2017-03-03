@@ -1,6 +1,9 @@
 # Type Racer -- Standalone Application
-Just something as a little side project.
 
-This probably isn't the best idea/project to create as practice with JavaFX and the Scene Builder, but I've always been interested in typeracer.com despite how somewhat simple, yet effective it is at helping people improve their typing skills. I also really like desktop applications as opposed to web applications, so this will be a neat test for me and keep me busy.
+The point of this is to get used to JavaFX and the Scene Builder.
 
-The goal for this project is to mimic the typeracer website, but as a standalone application without using any APIs that have any relation with typeracer.com.
+The goal I want to achieve with this project is to somewhat emulate typeracer.com without using any APIs in relation to the site. 
+
+This is going to utilize JavaFX as the GUI framework front-end and SQLite as the back-end.
+
+I don't plan on taking this project too seriously. It's mainly just for fun and practice.
