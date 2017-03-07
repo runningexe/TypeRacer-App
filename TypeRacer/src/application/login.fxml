@@ -15,22 +15,22 @@
    <children>
       <Label fx:id="isConnected" layoutX="27.0" layoutY="14.0" prefHeight="38.0" prefWidth="250.0" text="Status" textFill="#5888b5" wrapText="true">
          <font>
-            <Font name="HP Simplified" size="14.0" />
+            <Font name="Berlin Sans FB" size="14.0" />
          </font>
       </Label>
       <JFXTextField fx:id="txtUsername" focusColor="#3f77a8" layoutX="127.0" layoutY="64.0" prefHeight="25.0" prefWidth="152.0" promptText="Username" unFocusColor="#d0d0d0">
          <font>
-            <Font name="HP Simplified" size="12.0" />
+            <Font name="Berlin Sans FB" size="12.0" />
          </font>
       </JFXTextField>
       <JFXButton fx:id="btnLogin" layoutX="127.0" layoutY="157.0" onAction="#Login" prefHeight="38.0" prefWidth="105.0" style="-fx-background-color: #777777;" text="Login" textFill="WHITE">
          <font>
-            <Font name="HP Simplified" size="11.0" />
+            <Font name="Berlin Sans FB" size="12.0" />
          </font>
       </JFXButton>
       <JFXPasswordField fx:id="txtPassword" focusColor="#3f77a8" layoutX="127.0" layoutY="107.0" prefHeight="29.0" prefWidth="152.0" promptText="Password" unFocusColor="#cdcdcd">
          <font>
-            <Font name="HP Simplified" size="12.0" />
+            <Font name="Berlin Sans FB" size="12.0" />
          </font>
       </JFXPasswordField>
       <ImageView fitHeight="285.0" fitWidth="196.0" layoutX="289.0" pickOnBounds="true" preserveRatio="true">
@@ -40,12 +40,12 @@
       </ImageView>
       <Label layoutX="27.0" layoutY="64.0" prefHeight="25.0" prefWidth="89.0" text="Username:" textFill="#fcfcfc">
          <font>
-            <Font name="HP Simplified Italic" size="12.0" />
+            <Font name="Berlin Sans FB" size="12.0" />
          </font>
       </Label>
       <Label layoutX="27.0" layoutY="109.0" prefHeight="25.0" prefWidth="89.0" text="Password:" textFill="#fcfcfc">
          <font>
-            <Font name="HP Simplified Italic" size="12.0" />
+            <Font name="Berlin Sans FB" size="12.0" />
          </font>
       </Label>
    </children>
