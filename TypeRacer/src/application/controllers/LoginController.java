@@ -63,7 +63,7 @@ public class LoginController implements Initializable {
                 MainController mainController = (MainController) fxmlLoader.getController();
                 mainController.GetUser(txtUsername.getText());
                 stage.initModality(Modality.APPLICATION_MODAL);
-                stage.setTitle("Yeeeeeeaaaahh boiiiiiiiiii");
+                stage.setTitle("Type Racer");
                 stage.setScene(new Scene(pane));
                 stage.show();
 
