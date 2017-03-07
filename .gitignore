@@ -5,7 +5,6 @@
 # IntelliJ project files
 .idea
 gen
-typeracerDB.sqlite
 *.iml
 */out/
 
