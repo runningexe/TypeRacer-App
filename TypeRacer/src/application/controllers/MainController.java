@@ -1,15 +1,20 @@
 package application.controllers;
 
+import com.jfoenix.controls.JFXComboBox;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.Node;
 import javafx.scene.Scene;
+import javafx.scene.control.Button;
+import javafx.scene.control.ComboBox;
 import javafx.scene.control.Label;
 import javafx.scene.layout.Pane;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
+import org.controlsfx.glyphfont.FontAwesome;
+import org.controlsfx.glyphfont.Glyph;
 
 import java.io.IOException;
 import java.net.URL;
@@ -23,8 +28,18 @@ public class MainController implements Initializable {
     @FXML
     private Label lblUsername;
 
+    @FXML
+    private ComboBox cboSettings;
+
+    @FXML
+    private Button btnStart;
+
     @Override
     public void initialize(URL location, ResourceBundle resources) {
+
+    }
+
+    public void StartRace() {
 
     }
 
@@ -45,7 +60,7 @@ public class MainController implements Initializable {
         }
         Stage stage = new Stage();
         stage.initModality(Modality.APPLICATION_MODAL);
-        stage.setTitle("Yeeeeeeaaaahh boiiiiiiiiii");
+        stage.setTitle("Type Racer");
         stage.setScene(new Scene(pane));
         stage.show();
     }
