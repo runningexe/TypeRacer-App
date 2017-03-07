@@ -7,7 +7,7 @@
 gen
 typeracerDB.sqlite
 *.iml
-out
+/out/
 
 # User-specific stuff:
 .idea/**/workspace.xml
