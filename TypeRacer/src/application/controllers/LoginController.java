@@ -67,6 +67,7 @@ public class LoginController implements Initializable {
                 stage.setScene(new Scene(pane));
                 stage.show();
 
+
             } else {
                 isConnected.setText("Username and Password Incorrect.");
             }
