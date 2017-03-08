@@ -17,6 +17,7 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 import java.net.URL;
+import java.util.Arrays;
 import java.util.ResourceBundle;
 
 /**
@@ -40,17 +41,18 @@ public class MainController implements Initializable {
 
     public void TrackWords() {
 
+        /*Create array of words from sentence/paragraph*/
         String trackParagraph = lblWordsToType.getText();
-        String[] words = trackParagraph.split("\\s+");
+        String[] words = trackParagraph.split(" ");
         for (int i = 0; i < words.length; i++) {
             words[i] = words[i].replaceAll("[^\\w]", "");
         }
 
-
+        /*If the word entered in the textfield matches an index in the array, do something*/
         txtWords.textProperty().addListener(new ChangeListener<String>() {
             @Override
             public void changed(ObservableValue<? extends String> observable, String oldValue, String newValue) {
-
+                System.out.println(Arrays.toString(words));
             }
         });
     }
